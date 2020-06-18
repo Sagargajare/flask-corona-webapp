@@ -38,7 +38,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
-def hello():
+def home():
     stats1 = func()
 
     return render_template('index.html',a = stats1)
