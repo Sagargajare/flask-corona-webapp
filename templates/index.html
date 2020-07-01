@@ -1,66 +1,129 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>India Corona Updates</title>
-	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>India Corona Updates</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: rgb(128, 155, 245);
+        }
+        
+        td:nth-last-child(1) {
+            color: white;
+            background-color: rgb(0, 0, 0);
+        }
+        
+        td:nth-last-child(2) {
+            background-color: rgb(255, 128, 128);
+        }
+        
+        td:nth-last-child(3) {
+            background-color: rgb(63, 190, 63);
+        }
+        
+        td:nth-last-child(4) {
+            background-color: rgb(134, 134, 247);
+        }
+        
+        td:nth-last-child(6) {
+            background-color: rgb(79, 79, 94);
+        }
+    </style>
 </head>
+
 <body>
-	<section class="text-gray-700 body-font">
-		<div class="container px-5 py-24 mx-auto">
-		  <div class="flex flex-col text-center w-full mb-20">
-			<h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Corona Updates India</h1>
-			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">A Website Application by </p>
-			<p class="lg:w-2/3 mx-auto leading-relaxed text-base"><button href="https://www.instagram.com/i_am_swagar_g/">Sagar Gajare</button></p>
+    <div class="mb-2 bg-blue-600 text-white">
+        <div class="flex flex-col md:flex-row px-4 font-medium items-center tracking-wide">
+            <div class="flex md:mt-0 mt-4 items-center">
 
-			<p>
-				...................................................................................................................................
-			</p>
-			<p>
-				<div>
-					<a href="https://www.instagram.com/i_am_swagar_g/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Follow Me</a>
-				  </div>
+                <a class="md:my-4 md:mr-4 px-2 rounded text-2xl" style="color: white;" href="https://github.com/Sagargajare/flask-corona-webapp"><strong>India Corona Update</strong> </a>
+            </div>
+            <ul class="flex flex-col md:flex-row mx-auto md:mt-0 mt-2 md:mb-0 mb-2 md:ml-auto list-disc md:list-none">
+                <li class="md:mx-3 md:py-6 pb-2">
+                    <a href="https://www.linkedin.com/in/sagar-gajare-b4044a191/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Linkedin</a>
+                </li>
+                <li class="md:mx-3 md:py-6 pb-2">
+                    <a href="https://github.com/Sagargajare/flask-corona-webapp" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">GitHub</a>
+                </li>
+                <li class="md:mx-3 md:py-6 pb-2">
+                    <a href="https://www.instagram.com/i_am_swagar_g/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Instagram</a>
+                </li>
+            </ul>
+            <button class="absolute top-0 right-0 m-5 px-1 md:hidden rounded hover:text-gray-200 focus:text-gray-200 text-white">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </button>
+        </div>
+    </div>
+    <section class="text-gray-700 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Corona Updates India</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">A Website Application by </p>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base"><strong>Sagar Gajare</strong></p>
 
-			</p>
-			  <p>
-				...................................................................................................................................
-			</p>
-			  <div>
-					<a href="https://github.com/Sagargajare/flask-corona-webapp" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">GitHub</a>
-				  </div>
-			
- 
-		  </div>
-		  <div class="lg:w-2/3 w-full mx-auto overflow-auto">
-			<table class="table-auto w-full text-left whitespace-no-wrap">
-			  <thead>
-				<tr>
-				  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">SNo</th>
-				  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">State</th>
-				  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200"> Confirmed Cases</th>
-				  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Cured</th>
-				  <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Deaths</th>
-				  <th class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tr rounded-br">Total</th>
-				  
-				</tr>
-			  </thead>
-			  <tbody>
-				
-					{% for n in a: %}
-					<tr>
-						<td class="px-4 py-3">{{n[1]}}</td>
-					    <td class="px-4 py-3">{{n[2]}}</td>
-					    <td class="px-4 py-3">{{n[3]}}</td>
-					    <td class="px-4 py-3">{{n[4]}}</td>
-						<td class="px-4 py-3">{{n[5]}}</td>
-						<td class="px-4 py-3">{{n[6]}}</td>
-					</tr>
-					
-					
-					{%endfor%}
-				  
-			  </tbody>
-			</table>
-		  
-	  </section>
+
+                <p>
+                    <div>
+                        <a href="https://www.instagram.com/i_am_swagar_g/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Follow Me</a>
+                    </div>
+
+                </p>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+                <table class="table table-hover">
+                    <caption>
+                        <div>
+                            <a href="https://github.com/Sagargajare/flask-corona-webapp" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">GitHub</a>
+                        </div>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tl rounded-bl">SNo</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">State</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Active Cases</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Cured</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200">Deaths</th>
+                            <th class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-200 rounded-tr rounded-br">Total</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        {% for n in a: %}
+                        <tr>
+                            <td class="px-4 py-3"><strong>{{n[1]}}</strong></td>
+                            <td class="px-4 py-3"><strong>{{n[2]}}</strong></td>
+                            <td class="px-4 py-3"><strong>{{n[3]}}</strong></td>
+                            <td class="px-4 py-3"><strong>{{n[4]}}</strong></td>
+                            <td class="px-4 py-3"><strong>{{n[5]}}</strong></td>
+                            <td class="px-4 py-3"><strong>{{n[6]}}</strong></td>
+                        </tr>
+
+
+                        {%endfor%}
+
+                    </tbody>
+                </table>
+
+    </section>
 </body>
+
 </html>
