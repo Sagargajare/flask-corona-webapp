@@ -31,6 +31,12 @@
         td:nth-last-child(6) {
             background-color: rgb(79, 79, 94);
         }
+        
+        @media only screen and (max-width: 600px) {
+            .container px-5 py-24 mx-auto {
+                padding: 0;
+            }
+        }
     </style>
 </head>
 
@@ -87,7 +93,7 @@
 
 
             </div>
-            <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+            <div class="container">
                 <table class="table table-hover">
                     <caption>
                         <div>
