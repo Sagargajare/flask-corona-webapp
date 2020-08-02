@@ -1,7 +1,8 @@
 
 import requests
 from bs4 import BeautifulSoup
-
+import json
+import requests
 
 extract_contents = lambda row: [x.text.replace('\n', '') for x in row]
 URL = 'https://www.mohfw.gov.in/'
@@ -16,19 +17,9 @@ header = extract_contents(soup.tr.find_all('th'))
 
 all_rows = soup.find_all('tr')
 def func():
-    stats = []
-    for row in all_rows:
-        stat = extract_contents(row.find_all('td'))
-        # print(stat)
-
-        if stat:
-            if len(stat) == 6:
-                # last row
-                stat = ['', *stat]
-                stats.append(stat)
-            elif len(stat) == 5:
-                stats.append(stat)
-    return stats
+    data = requests.get("https://api.covid19india.org/data.json")
+    data = data.json()
+    return data["statewise"]
 
 
 
